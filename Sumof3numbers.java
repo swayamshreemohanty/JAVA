@@ -1,5 +1,5 @@
 //Code With Harry JAVA practice set Question no.1
-//I'm solved this problem using 'Return type with no argument' Function
+//I've solved this problem using 'Return type with no argument' Function
 
 import java.util.*;
 public class Sumof3numbers 
