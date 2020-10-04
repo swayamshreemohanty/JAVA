@@ -10,7 +10,7 @@ public class Sumof3numbers
         int sum=0;
         for (int i=1; i<=3;i++)
         {
-            System.out.format("Enter %d numer: ",i);
+            System.out.format("Enter numer %d: ",i,i);
             int num=add.nextInt();
             sum+=num;
         }   
@@ -21,7 +21,7 @@ public class Sumof3numbers
     public static void main (String[]args) 
     {
         Sumof3numbers obj = new Sumof3numbers();
-        System.out.println("The result is: "+obj.sum());
+        System.out.println("The addition of 3 numbers is: "+obj.sum());
 
     }
 }
